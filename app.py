@@ -5,7 +5,7 @@ from database.engine import session_maker, create_db
 from middleware import DataBaseSession
 from routers import private_router
 
-token = "7633093312:AAFcgT9nK-1yAUMNusnlCdpo9elgpx4kP2w"
+token = "TOKEN"
 
 bot = Bot(token=token)
 dp = Dispatcher()
